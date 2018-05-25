@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name = "Basket" table = "Baskets">
+        <meta attribute = "class-description">
+            This class contains the Baskets.
+        </meta>
+
+        <id name = "basketId" type = "int" column = "basketId">
+            <generator class="identity"/>
+        </id>
+
+        <property name = "basketName" column = "basketName" type = "string"/>
+        <property name = "locationId" column = "locationId" type = "int"/>
+    </class>
+</hibernate-mapping>
