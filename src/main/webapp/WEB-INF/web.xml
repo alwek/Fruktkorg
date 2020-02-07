@@ -3,7 +3,7 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>EVRY Fruktkorg</display-name>
+  <display-name>Fruktkorg</display-name>
   <servlet>
     <servlet-name>servlet-fruitbasket</servlet-name>
     <servlet-class>com.alican.servlet.FruitbasketServlet</servlet-class>

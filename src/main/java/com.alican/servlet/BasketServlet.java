@@ -19,7 +19,7 @@ public class BasketServlet extends HttpServlet{
         PrintWriter out = response.getWriter();
         out.println("<html>");
         out.println("<body>");
-        out.println("<h1>EVRY Fruktkorg Servlet</h1>");
+        out.println("<h1>Fruktkorg Servlet</h1>");
         out.println("</body>");
         out.println("</html>");
         if(request.getParameterNames().hasMoreElements())
